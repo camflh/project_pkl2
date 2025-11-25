@@ -11,8 +11,6 @@
 
     <div class = "flex justify-between items-center mb-4">
         <a href="{{ route('jurusan.create') }}" class="px-4 py-2 rounded-lg text-[#fffdf2] bg-black  hover:scale-105 transition-all duration-200">Tambah Data</a>
- HEAD
-
         <div class = "mr-20">
         @if(session('success'))
             <p id="alert-message" class = "text-blue-500 text-xl">{{ session('success') }}</p>
